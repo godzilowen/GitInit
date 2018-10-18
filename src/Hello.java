@@ -11,7 +11,7 @@ public class Hello {
 		this.name = name;
 	}
 	public String getHello() {
-		String Hello = "Hello " + this.name;
+		String Hello = "Hello " + getName();
 		return Hello;
 	}
 }
